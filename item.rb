@@ -27,8 +27,6 @@ class Item
 		(@real_price - @real_price*self.class.discount) + tax if @real_price
 	end
 
-
-
 	private
 
 		def tax
