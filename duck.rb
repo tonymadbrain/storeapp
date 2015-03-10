@@ -7,17 +7,17 @@ class Duck
 	end
 
 	def quack
-		puts "#{ @@greeting } #{@greeting}"
+		puts "#{ @@greeting } #{ @greeting }"
 	end
 
 	class << self
-		
+
 		attr_accessor :greeting
 
 		def quack
-			puts "#{ @@greeting } #{@greeting}"
+			puts "#{ @@greeting } #{ @greeting }"
 		end
-	
+
 	end
 
 end
